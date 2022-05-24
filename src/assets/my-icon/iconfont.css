@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3387326 */
+  src: url('iconfont.woff2?t=1652095734928') format('woff2'),
+       url('iconfont.woff?t=1652095734928') format('woff'),
+       url('iconfont.ttf?t=1652095734928') format('truetype');
+}
+[class^="icon-"], [class*=" icon-"]/*这里有空格*/
+{ font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*.iconfont {*/
+/*  font-family: "iconfont" !important;*/
+/*  font-size: 16px;*/
+/*  font-style: normal;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+.icon-3_square_solid:before {
+  content: "\e651";
+}
+
+.icon-2_square_solid:before {
+  content: "\e652";
+}
+
+.icon-4_square_solid:before {
+  content: "\e64d";
+}
+
+.icon-1_square_solid:before {
+  content: "\e64e";
+}
+
+.icon-2_round_solid:before {
+  content: "\e64f";
+}
+
+.icon-3_round_solid:before {
+  content: "\e650";
+}
+
